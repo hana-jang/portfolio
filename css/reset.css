@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:16px;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    color:#333;
+    display:block;
+    text-decoration: none;
+    cursor:pointer;
+}
+button{
+    border:none;
+    cursor: pointer;
+}
+
+
+/* 전체 폰트 */
+@font-face {
+    font-family: 'SUIT-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 포인트 폰트 */
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}

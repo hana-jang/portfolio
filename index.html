@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hana's Portofoilo</title>
+    <!--css src-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/btn.css">
+    <!--script src-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header-wrap">
+                <ul class="nav">
+                    <li><a href="#intro">INTRO</a></li>
+                    <li><a href="#profile">PROFILE</a></li>
+                    <li><a href="#skill">SKILL</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#design">DESIGN</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="mouse">
+            <span class="scroll_line"></span>
+            <span class="scroll_move"></span>
+            <span class="scroll_text">scroll</span>
+        </div>
+        <div id="intro">
+            <div class="intro-wrap">
+                <div class="text-box">
+                    <span class="text"></span><span class="blink">|</span>
+                </div>
+                <span class="ball1"></span>
+                <span class="ball2"></span>
+            </div>
+        </div>
+        <div id="profile">
+            <div class="profile-wrap">
+                <div class="profile-left">
+                    <div class="profile-left-wrap">
+                        <div class="pro-img-box">
+                            <img src="img/me.png" alt="me">
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-right">
+                    <div class="profile-right-wrap">
+                        <div class="aboutme">
+                            <span>장하나</span>
+                            <span>1995.03.14</span>
+                            <span>웹 퍼블리셔</span>
+                         </div>
+                        <div class="ment">
+                            <p>코드를 통해 화면이 채워지는 것을 직관적으로 확인 할 수 있어 <span>"웹 퍼블리셔"</span> 라는 직업에 매력을 느꼈습니다.</p>
+                            <p>웹 퍼블리셔로 시작해 프론트엔드 개발자가 되는 게 목표입니다.</p>
+                            <p>아직 서툴고 부족하기에 많이 공부하고 많은 노력이 필요하다는 것을 알고 있습니다.</p>
+                            <p>지금껏 공부했던 것들은 <span onclick="window.open('https://hana-study.notion.site/e2f32cefe4b748d28bad1d34b5f513bb?pvs=4')">"공부방"</span>에 기록중이고 앞으로 계속 채워나갈 예정입니다.</p>
+                            <p>실패에 두려워하지 않고 항상 노력하며 끊임없이 공부하고 센스있는 <span>웹 퍼블리셔</span>가 되겠습니다</p>
+                            
+                        </div>
+                        <table class="certi">
+                            <caption>Certificate</caption>
+                            <tr>
+                                <td>2023.04</td>
+                                <td>웹디자인기능사</td>
+                            </tr>
+                            <tr>
+                                <td>2022.08</td>
+                                <td>컴퓨터활용능력 2급</td>
+                            </tr>
+                        </table>
+                        <table class="edu">
+                            <caption>Education</caption>
+                            <tr>
+                                <td>2022.10 ~ <br><span>2023.05</span></td>
+                                <td>웹표준기반 스마트UI/UX 디자인&amp; 웹퍼블리셔 과정 수료</td>
+                            </tr>
+                        </table>
+                        <table class="contact">
+                            <caption>Contact</caption>
+                            <tr class="kakao">
+                                <td><img src="img/kakao.png" alt="kakaotalk"></td>
+                                <td onclick="window.open('https://open.kakao.com/o/sKXfK6gf')">
+                                    https://open.kakao.com/o/sKXfK6gf</td>
+                            </tr>
+                            <tr class="email">
+                                <td><img src="img/email.png" alt="email"></td>
+                                <td class="emailSrc">frontweb99@gmail.com</td>
+                            </tr>
+                            <tr class="github">
+                                <td><img src="img/github.png" alt="github"></td>
+                                <td onclick="window.open('https://github.com/hana-jang/')">https://github.com/hana-jang
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skill">
+            <h1>SKILL</h1>
+            <div class="skill-wrap">
+                <div>
+                    <img src="img/html.svg" alt="html">
+                    <p>HTML</p>
+                    <div class="skill-text">
+                        <p>HTML의 기본 구조를 이해하고 웹 접근성을 고려해 다양한 태그를 사용하여 마크업을 작성 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/css.svg" alt="css">
+                    <p>CSS</p>
+                    <div class="skill-text">
+                        <p>브라우저 호환성을 고려하여 CSS 코드를 작성 할 수 있고 CSS 애니메이션과 트랜지션을 구현 할 수 있으며 미디어쿼리를 활용해 반응형 레이아웃을 구현 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/scss.svg" alt="scss">
+                    <p>SCSS</p>
+                    <div class="skill-text">
+                        <p>@mixin, @include를 활용해 코드의 재사용성을 높일 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/swiper.png" alt="swiper">
+                    <p>Swiper js</p>
+                    <div class="skill-text">
+                        <p>swiper js를 이해하고 적절하게 사용할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/javascript.svg" alt="javascript">
+                    <p>JavaScript</p>
+                    <div class="skill-text">
+                        <p>자바스크립트를 이해하고 동적으로 이벤트를 생성 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/jquery.png" alt="jquery">
+                    <p>jQuery</p>
+                    <div class="skill-text">
+                        <p>jQuery를 이해하고  이벤트 핸들링과 클릭, 마우스 오버 및 터치 이벤트 등을 구현 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/react.svg" alt="react">
+                    <p>React</p>
+                    <div class="skill-text">
+                        <p>React의 주요 개념인 컴포넌트와 state, props, Router를 이해하고 동적인 UI와 라우팅 방식을 구현 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/vue.svg" alt="Vue">
+                    <p>Vue.js</p>
+                    <div class="skill-text">
+                        <p>v-bind, v-model, v-on, v-if, v-for를 사용 할 수 있고 컴포넌트와 props를 이해했습니다.<p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/ajax.png" alt="AJAX" class="ajax">
+                    <p>AJAX</p>
+                    <div class="skill-text">
+                        <p>"GET" 으로 오픈 API 정보를 불러 올 수 있습니다.<p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/json.png" alt="JSON">
+                    <p>JSON</p>
+                    <div class="skill-text">
+                        <p>html 내용을 txt 파일로 제작해 $.get 으로 불러올 수 있고 react에서 json 파일을 axios로 불러올 수 있습니다.<p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/photoshop.png" alt="photoshop">
+                    <p>Photoshop</p>
+                    <div class="skill-text">
+                        <p>규격에 맞게 이미지를 잘라내고 색을 변경하고 이미지의 용량을 줄이는 등 웹 페이지 제작 시 필요한 이미지를 편집 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/illustrator.png" alt="illustrator">
+                    <p>Illustrator</p>
+                    <div class="skill-text">
+                        <p>기본적인 툴 사용이 가능하고 패스파인더 및 각종 도형 툴을 응용하여 로고 및 이미지를 제작 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/figma.png" alt="figma">
+                    <p>figma</p>
+                    <div class="skill-text">
+                        <p>툴을 이용해 와이어프레임과 프로토타입 파일을 제작 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/github.png" alt="github">
+                    <p>github</p>
+                    <div class="skill-text">
+                        <p>깃 백업, 관리를 할 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/mysql.svg" alt="mysql">
+                    <p>MySQL</p>
+                    <div class="skill-text">
+                        <p>적절한 쿼리를 작성해 데이터를 조회,추가, 수정, 삭제 할 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="project">
+            <h1>PROJECT</h1>
+            <!-- 모달 팝업창 -->
+            <!--리뉴얼 포트폴리오 팝업-->
+            <div class="renewal-more modal">
+                <div class="modal-wrap">
+                    <h1>Renewal Portofolio</h1>
+                    <div class="modal-btn">
+                        <a href="https://hana-jang.github.io/portofolio" target="_blank">메인</a>
+                        <a href="https://github.com/hana-jang/portofolio" target="_blank">코드보기</a>
+                    </div>
+                    <div class="modal-language">
+                        <span>#HTML</span>
+                        <span>#SCSS</span>
+                        <span>#Javascript</span>
+                        <span>#jQuery</span>
+                    </div>
+                    <div class="modal-text">
+                        <p>- 리뉴얼한 최근 포트폴리오입니다.</p>
+                    </div>
+                    <div class="modal-img" title="누르면 팝업이 닫힙니다">
+                        <div class="modal-img-wrap">
+                            <img src="img/renewal.png" alt="renewal">
+                        </div>
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+            </div>
+            <!--예전 포트폴리오 팝업-->
+            <div class="last-more modal">
+                <div class="modal-wrap">
+                    <h1>Pre-Portofolio</h1>
+                    <div class="modal-btn">
+                        <a href="https://hana-jang.github.io/pre-portofolio" target="_blank">메인</a>
+                        <a href="https://github.com/hana-jang/pre-portofolio" target="_blank">코드보기</a>
+                    </div>
+                    <div class="modal-language">
+                        <span>#HTML</span>
+                        <span>#SCSS</span>
+                        <span>#Javascript</span>
+                        <span>#jQuery</span>
+                    </div>
+                    <div class="modal-text">
+                        <p>- 페이지를 방문하면 들어오는 것처럼 인트로에 문 열리는 이벤트를 넣었습니다.</p>
+                        <p>- Swiper JS 를 이용해 페이지를 구성했습니다.</p>
+                    </div>
+                    <div class="modal-img" title="누르면 팝업이 닫힙니다">
+                        <div class="modal-img-wrap">
+                            <img src="img/portofolio.png" alt="portofolio">
+                        </div>
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+            </div>
+            <!--리액트 모모케이스 팝업-->
+            <div class="react-more modal">
+                <div class="modal-wrap">
+                    <h1>MOMOCASE</h1>
+                    <div class="modal-btn">
+                        <a href="https://hana-jang.github.io/momocase" target="_blank">메인</a>
+                        <a href="https://hana-jang.github.io/momocase/momocase.pdf" target="_blank">문서화</a>
+                        <a href="https://github.com/hana-jang/momocase" target="_blank">코드보기</a>
+                    </div>
+                    <div class="modal-language">
+                        <span>#HTML</span>
+                        <span>#SCSS</span>
+                        <span>#Javascript</span>
+                        <span>#React/Redux</span>
+                        <span>#Bootstrap</span>
+                    </div>
+                    <div class="modal-text">
+                        <p>- React / Redux / React의 Bootstrap을 이용해 구현한 핸드폰 케이스 사이트입니다.</p>
+                        <p>- Router로 홈, 상품 상세 페이지, 장바구니, 로그인 페이지를 생성했고 세부 내용은 Components를 생성해서 구현했습니다.</p>
+                    </div>
+                    <div class="modal-img" title="누르면 팝업이 닫힙니다">
+                        <div class="modal-img-wrap">
+                            <img src="img/react-main.jpg" alt="react-pc">
+                        </div>
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+            </div>
+            <!--팀프로젝트 모나미 팝업-->
+            <div class="monami-more modal">
+                <div class="modal-wrap">
+                    <h1>MONAMI</h1>
+                    <div class="modal-btn">
+                        <a href="https://hana-jang.github.io/Team_project" target="_blank">메인</a>
+                        <a href="https://hana-jang.github.io/Team_project/monami.pdf" target="_blank">문서화</a>
+                        <a href="https://github.com/hana-jang/Team_project" target="_blank">코드보기</a>
+                    </div>
+                    <div class="modal-language">
+                        <span>#HTML</span>
+                        <span>#CSS</span>
+                        <span>#Javascript</span>
+                        <span>#jQuery</span>
+                    </div>
+                    <div class="modal-text">
+                        <p>- 3명이 한 팀이 되어 만든 반응형 사이트입니다.</p>
+                        <p>- 실제 모나미 페이지와 비슷하게 만들려고 했고 배치는 모든 요소가 한 눈에 들어 올 수 있게 변경했습니다.</p>
+                    </div>
+                    <div class="modal-img" title="누르면 팝업이 닫힙니다">
+                        <div class="modal-img-wrap">
+                            <img src="img/monami-main.jpg" alt="monami-pc">
+                        </div>
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+            </div>
+            <!--밀리의 서재 팝업-->
+            <div class="millie-more modal">
+                <div class="modal-wrap">
+                    <h1>밀리의 서재</h1>
+                    <div class="modal-btn">
+                        <a href="https://hana-jang.github.io/millie" target="_blank">메인</a>
+                        <a href="https://hana-jang.github.io/millie/sub.html" target="_blank">서브</a>
+                        <a href="https://hana-jang.github.io/millie/millie.pdf" target="_blank">문서화</a>
+                        <a href="https://github.com/hana-jang/millie" target="_blank">코드보기</a>
+                    </div>
+                    <div class="modal-language">
+                        <span>#HTML</span>
+                        <span>#SCSS</span>
+                        <span>#Javascript</span>
+                        <span>#jQuery</span>
+                        <span>#Open API</span>
+                        <span>#AJAX/JSON</span>
+                    </div>
+                    <div class="modal-text">
+                        <p>- 카카오 오픈 API와 AJAX를 이용해 제작한 밀리의 서재 사이트입니다.</p>
+                        <p>- 메인 페이지에서는 AJAX를 이용해 오픈 API에서 책 정보를, 서브 페이지에서는 양이 많은 내용을 텍스트 파일로 만들어 "get" 으로 불러왔습니다.</p>
+                    </div>
+                    <div class="modal-img" title="누르면 팝업이 닫힙니다">
+                        <div class="modal-img-wrap">
+                            <img src="img/millie-main.jpg" alt="millie-pc">
+                        </div>
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+            </div>
+            <!--아웃백 팝업-->
+            <div class="outback-more modal">
+                <div class="modal-wrap">
+                    <h1>OUTBACK</h1>
+                    <div class="modal-btn">
+                        <a href="https://hana-jang.github.io/outback" target="_blank">메인</a>
+                        <a href="https://hana-jang.github.io/outback/sub.html" target="_blank">서브</a>
+                        <a href="https://hana-jang.github.io/outback/outback.pdf" target="_blank">문서화</a>
+                        <a href="https://github.com/hana-jang/outback" target="_blank">코드보기</a>
+                    </div>
+                    <div class="modal-language">
+                        <span>#HTML</span>
+                        <span>#CSS</span>
+                        <span>#Javascript</span>
+                        <span>#jQuery</span>
+                    </div>
+                    <div class="modal-text">
+                        <p>- 처음으로 만든 반응형 사이트입니다.</p>
+                        <p>- 모달팝업을 구현했고 헤더의 "reserve"와 중간에 "Book A Table"을 누르면 확인하실 수 있습니다.</p>
+                    </div>
+                    <div class="modal-img" title="누르면 팝업이 닫힙니다">
+                        <div class="modal-img-wrap">
+                            <img src="img/outback-main.jpg" alt="outback-pc">
+                        </div>
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+            </div>
+            <!--로미스토리 팝업-->
+            <div class="romi-more modal">
+                <div class="modal-wrap">
+                    <h1>ROMISTORY</h1>
+                    <div class="modal-btn">
+                        <a href="https://hana-jang.github.io/romistory" target="_blank">메인</a>
+                        <a href="https://hana-jang.github.io/romistory/sub.html" target="_blank">서브</a>
+                        <a href="https://hana-jang.github.io/romistory/romistory.pdf" target="_blank">문서화</a>
+                        <a href="https://github.com/hana-jang/romistory" target="_blank">코드보기</a>
+                    </div>
+                    <div class="modal-language">
+                        <span>#HTML</span>
+                        <span>#CSS</span>
+                        <span>#jQuery</span>
+                    </div>
+                    <div class="modal-text">
+                        <p>- 제가 자주 이용하는 쇼핑몰을 리뉴얼 해보고 싶은 생각에 쇼핑몰에 어울리는 레이아웃을 찾아 그에 맞춰 구현해봤습니다.</p>
+                        <p>- 제이쿼리만 조금 배운 상태로 시작한 프로젝트로 간단한 기능들만 구현했습니다.</p>
+                    </div>
+                    <div class="modal-img" title="누르면 팝업이 닫힙니다">
+                        <div class="modal-img-wrap">
+                            <img src="img/romi-main.jpg" alt="romistory-pc">
+                        </div>
+                    </div>
+                    <button class="closebtn">X</button>
+                </div>
+            </div>
+            <!-- project 전체 wrap-->
+            <div class="project-wrap">
+                <div class="renewal">
+                    <div class="project-img">
+                        <img src="img/renewal-set.png" alt="portofolio-pc">
+                        <div class="more-box">
+                            <p>더보기</p>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h1>Portofolio</h1>
+                        <p>포트폴리오 / PC</p>
+                        <p>개인 100%</p>
+                    </div>
+                    <div class="project-btn">
+                        <div class="btn-left-one">
+                            <button class="btn main" onclick="window.open('https://hana-jang.github.io/portofolio')">메인</button>
+                        </div>
+                        <div class="btn-right-one">
+                            <button class="btn code" onclick="window.open('https://github.com/hana-jang/portofolio')">코드보기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="project-img">
+                        <img src="img/portofolio-set.png" alt="portofolio-pc">
+                        <div class="more-box">
+                            <p class="first-last-more-btn">더보기</p>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h1>Pre-Portofolio</h1>
+                        <p>예전 포트폴리오 / PC</p>
+                        <p>개인 100%</p>
+                    </div>
+                    <div class="project-btn">
+                        <div class="btn-left-one">
+                            <button class="btn main" onclick="window.open('https://hana-jang.github.io/pre-portofolio')">메인</button>
+                        </div>
+                        <div class="btn-right-one">
+                            <button class="btn code" onclick="window.open('https://github.com/hana-jang/pre-portofolio')">코드보기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="react">
+                    <div class="project-img">
+                        <img src="img/react-set.png" alt="react-pc+moblie preview">
+                        <div class="more-box">
+                            <p>더보기</p>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h1>MOMOCASE</h1>
+                        <p>React / PC, Moblie 반응형</p>
+                        <p>핸드폰케이스 쇼핑몰 / 개인 100%</p>
+                    </div>
+                    <div class="project-btn">
+                        <div class="btn-left-one">
+                            <button class="btn main" onclick="window.open('https://hana-jang.github.io/momocase')">메인</button>
+                        </div>
+                        <div class="btn-right">
+                            <button class="btn pdf" onclick="window.open('https://hana-jang.github.io/momocase/momocase.pdf')">문서화</button>
+                            <button class="btn code" onclick="window.open('https://github.com/hana-jang/momocase')">코드보기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="monami">
+                    <div class="project-img">
+                        <img src="img/monami-set.png" alt="monami-pc+moblie preview">
+                        <div class="more-box">
+                            <p>더보기</p>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h1>MONAMI</h1>
+                        <p>팀프로젝트 / PC, Moblie 반응형</p>
+                        <p>모나미 사이트 / 개인-메인 전체 담당</p>
+                    </div>
+                    <div class="project-btn">
+                        <div class="btn-left-one">
+                            <button class="btn main" onclick="window.open('https://hana-jang.github.io/Team_project')">메인</button>
+                        </div>
+                        <div class="btn-right">
+                            <button class="btn pdf" onclick="window.open('https://hana-jang.github.io/Team_project/monami.pdf')">문서화</button>
+                            <button class="btn code" onclick="window.open('https://github.com/hana-jang/Team_project')">코드보기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="millie">
+                    <div class="project-img">
+                        <img src="img/millie-set.png" alt="millie-pc preview">
+                        <div class="more-box">
+                            <p>더보기</p>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h1>밀리의 서재</h1>
+                        <p>AJAX,JSON / PC</p>
+                        <p>서점 사이트 / 개인 100%</p>
+                    </div>
+                    <div class="project-btn">
+                        <div class="btn-left">
+                            <button class="btn main" onclick="window.open('https://hana-jang.github.io/millie')">메인</button>
+                            <button class="btn sub" onclick="window.open('https://hana-jang.github.io/millie/sub.html')">서브</button>
+                        </div>
+                        <div class="btn-right">
+                            <button class="btn pdf" onclick="window.open('https://hana-jang.github.io/millie/millie.pdf')">문서화</button>
+                            <button class="btn code" onclick="window.open('https://github.com/hana-jang/millie')">코드보기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="outback">
+                    <div class="project-img">
+                        <img src="img/outback-set.png" alt="outback-pc+moblie preview">
+                        <div class="more-box">
+                            <p>더보기</p>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h1>OUTBACK</h1>
+                        <p>Javascript, jQuery / PC, Moblie 반응형</p>
+                        <p>아웃백 사이트 / 개인 100%</p>
+                    </div>
+                    <div class="project-btn">
+                        <div class="btn-left">
+                            <button class="btn main" onclick="window.open('https://hana-jang.github.io/outback')">메인</button>
+                            <button class="btn sub" onclick="window.open('https://hana-jang.github.io/outback/sub.html')">서브</button>
+                        </div>
+                        <div class="btn-right">
+                            <button class="btn pdf" onclick="window.open('https://hana-jang.github.io/outback/outback.pdf')">문서화</button>
+                            <button class="btn code" onclick="window.open('https://github.com/hana-jang/outback')">코드보기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="romi">
+                    <div class="project-img">
+                        <img src="img/romi-set.png" alt="romi-pc preview">
+                        <div class="more-box">
+                            <p>더보기</p>
+                        </div>
+                    </div>
+                    <div class="project-text">
+                        <h1>ROMISTORY</h1>
+                        <p>jQuery / PC</p>
+                        <p>쇼핑몰 사이트 / 개인 100%</p>
+                    </div>
+                    <div class="project-btn">
+                        <div class="btn-left">
+                            <button class="btn main" onclick="window.open('https://hana-jang.github.io/romistory')">메인</button>
+                            <button class="btn sub" onclick="window.open('https://hana-jang.github.io/romistory/sub.html')">서브</button>
+                        </div>
+                        <div class="btn-right">
+                            <button class="btn pdf" onclick="window.open('https://hana-jang.github.io/romistory/romistory.pdf')">문서화</button>
+                            <button class="btn code" onclick="window.open('https://github.com/hana-jang/romistory')">코드보기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="design">
+            <h1>DESIGN</h1>
+            <div class="design-wrap">
+                <div class="insta">
+                    <h1>SNS DESIGN</h1>
+                    <div class="insta-imgbox">
+                        <img src="img/tint.png" alt="에뛰드하우스 글로우픽싱틴트">
+                        <img src="img/soonjun.png" alt="에뛰드하우스 순정베리어보습크림">
+                        <img src="img/roem.png" alt="스튜디오 로엠">
+                    </div>
+                </div>
+                <div class="banner">
+                    <h1>BANNER DESIGN</h1>
+                    <div class="banner-wrap">
+                        <img src="img/perfect9.png" alt="이니스프리 퍼펙트9 인텐시브크림">
+                        <img src="img/swimwear.png" alt="로미스토리 스윔웨어 원피스">
+                    </div>
+                    <img src="img/pre.png" alt="pre" class="pre">
+                    <img src="img/next.png" alt="next" class="next">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-wrap">
+                <p>본 페이지는 상업용 목적이 아닌 개인 포트폴리오 용으로 제작되었습니다.</p>
+                <p>ⓒ Copyright 2022 - 2023 JANG HANA</p>
+            </div>
+        </footer>
+        <div class="topbtn">
+            <span>Top</span>
+        </div>
+    </div>
+</body>
+
+</html>
