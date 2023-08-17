@@ -186,14 +186,14 @@ $(()=>{
     // 디자인 섹션 배너디자인 슬라이드 이동
     
     $(".pre").click(function(){
-        $(".banner-ad-wrap img:last").prependTo(".banner-ad-wrap");
-        $(".banner-ad-wrap").css("margin-left","-100%");
-        $(".banner-ad-wrap").stop().animate({marginLeft:0},700);
+        $(".banner-wrap img:last").prependTo(".banner-wrap");
+        $(".banner-wrap").css("margin-left","-100%");
+        $(".banner-wrap").stop().animate({marginLeft:0},700);
     });
     $(".next").click(function(){
-        $(".banner-ad-wrap").stop().animate({marginLeft:"-100%"},700, function(){
-            $(".banner-ad-wrap img:first").appendTo(".banner-ad-wrap");
-            $(".banner-ad-wrap").css("margin-left",0);
+        $(".banner-wrap").stop().animate({marginLeft:"-100%"},700, function(){
+            $(".banner-wrap img:first").appendTo(".banner-wrap");
+            $(".banner-wrap").css("margin-left",0);
         });
     });
 });
