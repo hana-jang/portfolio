@@ -255,16 +255,16 @@
     font-size:1.3rem;
     font-weight: bold;
 }
-.ment p:nth-child(4)>span{
+.ment p:nth-child(3)>span{
     font-size:1.1rem;
     font-weight: bold;
     color:#488eb0;
 }
-.ment p:nth-child(4)>span:hover{
-    text-decoration: underline;
+.ment p:nth-child(3)>span:hover{
+    text-decoration: underline 2px;
     cursor: pointer;
 }
-.ment p:nth-child(5)>span{
+.ment p:nth-child(4)>span{
     color:#488eb0;
     font-size:1.3rem;
     font-weight: bold;
@@ -277,10 +277,10 @@
     .ment p:nth-child(1)>span{
         font-size:3.5vw;
     }
-    .ment p:nth-child(4)>span{
+    .ment p:nth-child(3)>span{
         font-size:3.5vw;
     }
-    .ment p:nth-child(5)>span{
+    .ment p:nth-child(4)>span{
         font-size:3.5vw;
     }
 }
