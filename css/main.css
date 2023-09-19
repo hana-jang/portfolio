@@ -726,7 +726,7 @@
 }
 @media (min-width:700px) and (max-width:999px){
     .modal-wrap{
-        height:calc(100% + 50px);
+        height:105%;
     }
 }
 @media (min-width:414px) and (max-width:699px){
@@ -861,8 +861,7 @@
 }
 @media (min-width:700px) and (max-width:999px){
     .modal-img{
-        height:67vh;
-        max-height:800px;
+        height:calc(100% - 22%);
     }
 }
 @media (min-width:414px) and (max-width:699px) {
@@ -1428,7 +1427,7 @@
 }
 .banner-modal-wrap{
     width:90%;
-    max-width:1300px;
+    max-width:1400px;
     margin:0 auto;
     position:absolute;
     top:50%;
