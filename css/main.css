@@ -744,13 +744,13 @@
         max-height:calc(100% - 7%);
     }
     .last-more>.modal-wrap, .millie-more>.modal-wrap, .monami-more>.modal-wrap {
-        max-height:calc(100% - 5%);
+        max-height:calc(100% - 6%);
     }
     .react-more>.modal-wrap{
-        max-height:calc(100% - 5%);
+        max-height:calc(100% - 6%);
     }
     .outback-more>.modal-wrap, .romi-more>.modal-wrap{
-        max-height:calc(100% - 5%);
+        max-height:calc(100% - 6%);
     }
 }
 @media (max-width:807px) and (max-height:413px){
@@ -1389,9 +1389,14 @@
     left:50%;
     transform: translate(-50%, -50%);
 }
-@media (max-width:1399px){
+@media (min-width:414px) and (max-width:1399px){
     .insta-modal-wrap{
         height:calc(100% - 50px);
+    }
+}
+@media (max-width:413px){
+    .insta-modal-wrap{
+        height:auto;
     }
 }
 
