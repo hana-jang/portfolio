@@ -36,7 +36,7 @@ $(()=>{
     if (window.matchMedia("(min-width:700px) and (max-width:1399px)").matches) {
         //intro typing 효과
         function typingIntro() {
-            const content = "WELCOME TO \n MY PORTOFOLIO \n JANG HA NA"
+            const content = "WELCOME TO \n MY PORTFOLIO \n JANG HA NA"
             const text = document.querySelector(".text");
             let i = 0;
 
@@ -56,7 +56,7 @@ $(()=>{
     if (window.matchMedia("(max-width:699px)").matches) {
         //intro typing 효과
         function typingIntro() {
-            let content = "WELCOME TO \n MY \n PORTOFOLIO \n JANG HA NA"
+            let content = "WELCOME TO \n MY \n PORTFOLIO \n JANG HA NA"
             let text = document.querySelector(".text");
             let i = 0;
 
