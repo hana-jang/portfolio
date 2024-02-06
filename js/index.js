@@ -16,7 +16,7 @@ $(()=>{
     if(window.matchMedia("(min-width:1400px)").matches){
         //intro typing 효과
         function typingIntro(){
-        const content="WELCOME TO MY PORTOFOLIO \n JANG HA NA"
+        const content="WELCOME TO MY PORTFOLIO \n JANG HA NA"
         const text=document.querySelector(".text");
         let i=0;
 
