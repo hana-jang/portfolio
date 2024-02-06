@@ -2,4 +2,4 @@
 
 ★ HTML, CSS, Javascript, jQuery
 
-- site : https://hana-jang.github.io/portofolio/
+- site : https://hana-jang.github.io/portfolio/
